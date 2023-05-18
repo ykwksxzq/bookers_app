@@ -1,6 +1,6 @@
 class BooksController < ApplicationController
   def new
-    @book = Book.new
+    @book = Book.new #新規投稿機能はない為、後で削除
   end
 
   def create
